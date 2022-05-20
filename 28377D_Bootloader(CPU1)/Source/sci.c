@@ -23,7 +23,7 @@ interrupt void scia_rx_isr(void);
 void Init_Sci(void)
 {
     EALLOW;
-    GPIO_SetupPinMux(136, GPIO_MUX_CPU1, 6);              //SCI_A_RX (MUX6)
+    GPIO_SetupPinMux(136, GPIO_MUX_CPU1, 6);              //SCI_A_RX (MUX6)**
     GPIO_SetupPinOptions(136, GPIO_INPUT, GPIO_PUSHPULL); //SCI_A_RX (MUX6)
     GPIO_SetupPinMux(135, GPIO_MUX_CPU1, 6);              //SCI_A_TX (MUX6)
     GPIO_SetupPinOptions(135, GPIO_OUTPUT, GPIO_ASYNC);   //SCI_A_TX (MUX6)
