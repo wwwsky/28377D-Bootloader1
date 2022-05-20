@@ -6,7 +6,7 @@
 // CPU Main Clock
 #define CPUCLK          200000000L
 
-// Peripheral Low Speed Clock for SCI-C
+// Peripheral Low Speed Clock for SCI-C**
 #define SCIA_LSPCLK     (CPUCLK / 4)
 
 // SCI-A Baudrate
