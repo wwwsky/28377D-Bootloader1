@@ -15,13 +15,13 @@ void Init_Dido()
     EALLOW;
 
     //DI
-    GpioCtrlRegs.GPAGMUX1.bit.GPIO0 = 1;
-    GpioCtrlRegs.GPAGMUX1.bit.GPIO1 = 1;
-    GpioCtrlRegs.GPAGMUX1.bit.GPIO2 = 1;
-    GpioCtrlRegs.GPAGMUX1.bit.GPIO3 = 1;
-    GpioCtrlRegs.GPAGMUX1.bit.GPIO4 = 1;
-    GpioCtrlRegs.GPDGMUX2.bit.GPIO126 = 2;
-    GpioCtrlRegs.GPDGMUX2.bit.GPIO127 = 2;
+    GpioCtrlRegs.GPAGMUX1.bit.GPIO0 = 0;
+    GpioCtrlRegs.GPAGMUX1.bit.GPIO1 = 0;
+    GpioCtrlRegs.GPAGMUX1.bit.GPIO2 = 0;
+    GpioCtrlRegs.GPAGMUX1.bit.GPIO3 = 0;
+    GpioCtrlRegs.GPAGMUX1.bit.GPIO4 = 0;
+    GpioCtrlRegs.GPDGMUX2.bit.GPIO126 = 0;
+    GpioCtrlRegs.GPDGMUX2.bit.GPIO127 = 0;
     GpioCtrlRegs.GPEGMUX1.bit.GPIO128 = 0;
     GpioCtrlRegs.GPEGMUX1.bit.GPIO129 = 0;
     GpioCtrlRegs.GPEGMUX1.bit.GPIO130 = 0;
