@@ -107,7 +107,7 @@ Fapi_StatusType Fapi_setupEepromSectorEnable(void)
 }
 
 //
-// Fapi_setupBankSectorEnable - Enable flash bank sectors
+// Fapi_setupBankSectorEnable - Enable flash bank sectors.
 //
 #pragma CODE_SECTION(Fapi_setupBankSectorEnable,ramFuncSection);
 Fapi_StatusType Fapi_setupBankSectorEnable(void)
