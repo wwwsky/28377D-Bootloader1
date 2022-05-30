@@ -43,9 +43,9 @@ void Init_Dido()
 
     GpioCtrlRegs.GPADIR.bit.GPIO0 = 0;
     GpioCtrlRegs.GPADIR.bit.GPIO1 = 0;
-    GpioCtrlRegs.GPADIR.bit.GPIO2 = 0;
-    GpioCtrlRegs.GPADIR.bit.GPIO3 = 0;
-    GpioCtrlRegs.GPADIR.bit.GPIO4 = 0;
+    GpioCtrlRegs.GPADIR.bit.GPIO2 = 1;
+    GpioCtrlRegs.GPADIR.bit.GPIO3 = 1;
+    GpioCtrlRegs.GPADIR.bit.GPIO4 = 1;
 
     GpioCtrlRegs.GPDDIR.bit.GPIO126 = 0;
     GpioCtrlRegs.GPDDIR.bit.GPIO127 = 0;
